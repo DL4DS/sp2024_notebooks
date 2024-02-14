@@ -1,0 +1,29 @@
+Files already downloaded and verified
+Epoch 1 done for MLP on cuda!
+Epoch 2 done for MLP on cuda!
+Epoch 3 done for MLP on cuda!
+Epoch 4 done for MLP on cuda!
+Epoch 5 done for MLP on cuda!
+Epoch 1 done for CNN on cuda!
+Epoch 2 done for CNN on cuda!
+Epoch 3 done for CNN on cuda!
+Epoch 4 done for CNN on cuda!
+Epoch 5 done for CNN on cuda!
+Epoch 1 done for MLP on cpu!
+Epoch 2 done for MLP on cpu!
+Epoch 3 done for MLP on cpu!
+Epoch 4 done for MLP on cpu!
+Epoch 5 done for MLP on cpu!
+Epoch 1 done for CNN on cpu!
+Epoch 2 done for CNN on cpu!
+Epoch 3 done for CNN on cpu!
+Epoch 4 done for CNN on cpu!
+Epoch 5 done for CNN on cpu!
++-------+--------+----------------------+--------------------+
+| Model | Device | Total Time (seconds) | Avg Time per Epoch |
++-------+--------+----------------------+--------------------+
+|  MLP  |  CUDA  |        32.69         |        6.54        |
+|  CNN  |  CUDA  |        36.75         |        7.35        |
+|  MLP  |  CPU   |        40.47         |        8.09        |
+|  CNN  |  CPU   |        194.15        |       38.83        |
++-------+--------+----------------------+--------------------+
