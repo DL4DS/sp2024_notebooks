@@ -1,0 +1,22 @@
+2024-02-17 07:35:37 - INFO - The configuration is: {'model_params': {'model_name': 'resnet18', 'pretrained': True, 'num_classes': 100}, 'trainig_params': {'batch_size': 32, 'num_epochs': 5, 'learning_rate': 0.001, 'weight_decay': 0.0001, 'momentum': 0.9}, 'run_dir': 'runs', 'data_dir': '/projectnb/ds598/projects/xthomas/data', 'run_path': 'runs/resnet18_bs_32_lr_0.001_wd_0.0001_epochs_5', 'log_file': 'runs/resnet18_bs_32_lr_0.001_wd_0.0001_epochs_5/training.log'}
+2024-02-17 07:36:10 - INFO - At Epoch 0: Loss: 1.907, Accuracy: 34.18%
+2024-02-17 07:36:12 - INFO - At Epoch 0: Accuracy of the network on the test images: 44.68%
+2024-02-17 07:36:12 - INFO - Best Test Accuracy so far: 44.68%
+2024-02-17 07:36:12 - INFO - Saving the model
+2024-02-17 07:36:42 - INFO - At Epoch 1: Loss: 1.435, Accuracy: 47.57%
+2024-02-17 07:36:45 - INFO - At Epoch 1: Accuracy of the network on the test images: 53.38%
+2024-02-17 07:36:45 - INFO - Best Test Accuracy so far: 53.38%
+2024-02-17 07:36:45 - INFO - Saving the model
+2024-02-17 07:37:14 - INFO - At Epoch 2: Loss: 1.263, Accuracy: 54.38%
+2024-02-17 07:37:17 - INFO - At Epoch 2: Accuracy of the network on the test images: 55.45%
+2024-02-17 07:37:17 - INFO - Best Test Accuracy so far: 55.45%
+2024-02-17 07:37:17 - INFO - Saving the model
+2024-02-17 07:37:46 - INFO - At Epoch 3: Loss: 1.127, Accuracy: 59.68%
+2024-02-17 07:37:49 - INFO - At Epoch 3: Accuracy of the network on the test images: 60.04%
+2024-02-17 07:37:49 - INFO - Best Test Accuracy so far: 60.04%
+2024-02-17 07:37:49 - INFO - Saving the model
+2024-02-17 07:38:18 - INFO - At Epoch 4: Loss: 1.024, Accuracy: 63.50%
+2024-02-17 07:38:21 - INFO - At Epoch 4: Accuracy of the network on the test images: 64.24%
+2024-02-17 07:38:21 - INFO - Best Test Accuracy so far: 64.24%
+2024-02-17 07:38:21 - INFO - Saving the model
+2024-02-17 07:38:21 - INFO - Finished Training
