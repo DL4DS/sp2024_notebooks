@@ -32,11 +32,10 @@ def train(model, train_loader, criterion, optimizer, device, epoch, logger):
     )
 
 
-def test(model, test_loader, criterion, device, epoch, logger):
+def test(model, test_loader, criterion, device, epoch, logger, best_acc):
     model.eval()
     correct = 0
     total = 0
-    best_acc = 0
     with torch.no_grad():
         for data in test_loader:
             inputs, labels = data
@@ -45,14 +44,17 @@ def test(model, test_loader, criterion, device, epoch, logger):
             _, predicted = torch.max(outputs, 1)
             total += labels.size(0)
             correct += (predicted == labels).sum().item()
+    accuracy = 100 * correct / total
     logger.info(
-        f"At Epoch {epoch}: Accuracy of the network on the test images: {100 * correct / total:.2f}%"
+        f"At Epoch {epoch}: Accuracy of the network on the test images: {accuracy:.2f}%"
     )
-    if 100 * correct / total > best_acc:
-        best_acc = 100 * correct / total
+    if accuracy > best_acc:
+        best_acc = accuracy
         logger.info(f"Best Test Accuracy so far: {best_acc:.2f}%")
         logger.info("Saving the model")
-        torch.save(model.state_dict(), f'{config["run_path"]}/best_model.pth')
+        torch.save(model.state_dict(), os.path.join(config["run_path"], 'best_model.pth'))
+
+    return best_acc
 
 
 def main(config, logger):
@@ -88,11 +90,12 @@ def main(config, logger):
         weight_decay=config["trainig_params"]["weight_decay"],
     )
 
+    best_acc = 0
     for epoch in range(config["trainig_params"]["num_epochs"]):
         train(model, train_loader, criterion, optimizer, device, epoch, logger)
-        test(model, test_loader, criterion, device, epoch, logger)
+        best_acc = test(model, test_loader, criterion, device, epoch, logger, best_acc)
 
-    logger.info("Finished Training")
+    logger.info(f"Finished Training with best accuracy: {best_acc:.2f}%")
 
 
 if __name__ == "__main__":

@@ -1,42 +1,42 @@
-2024-02-17 07:35:27 - INFO - The configuration is: {'model_params': {'model_name': 'resnet18', 'pretrained': True, 'num_classes': 100}, 'trainig_params': {'batch_size': 32, 'num_epochs': 10, 'learning_rate': 0.0001, 'weight_decay': 0.0001, 'momentum': 0.9}, 'run_dir': 'runs', 'data_dir': '/projectnb/ds598/projects/xthomas/data', 'run_path': 'runs/resnet18_bs_32_lr_0.0001_wd_0.0001_epochs_10', 'log_file': 'runs/resnet18_bs_32_lr_0.0001_wd_0.0001_epochs_10/training.log'}
-2024-02-17 07:36:00 - INFO - At Epoch 0: Loss: 3.129, Accuracy: 16.84%
-2024-02-17 07:36:02 - INFO - At Epoch 0: Accuracy of the network on the test images: 24.19%
-2024-02-17 07:36:02 - INFO - Best Test Accuracy so far: 24.19%
-2024-02-17 07:36:02 - INFO - Saving the model
-2024-02-17 07:36:33 - INFO - At Epoch 1: Loss: 2.107, Accuracy: 27.27%
-2024-02-17 07:36:35 - INFO - At Epoch 1: Accuracy of the network on the test images: 29.45%
-2024-02-17 07:36:35 - INFO - Best Test Accuracy so far: 29.45%
-2024-02-17 07:36:35 - INFO - Saving the model
-2024-02-17 07:37:06 - INFO - At Epoch 2: Loss: 1.912, Accuracy: 31.13%
-2024-02-17 07:37:08 - INFO - At Epoch 2: Accuracy of the network on the test images: 34.53%
-2024-02-17 07:37:08 - INFO - Best Test Accuracy so far: 34.53%
-2024-02-17 07:37:08 - INFO - Saving the model
-2024-02-17 07:37:39 - INFO - At Epoch 3: Loss: 1.806, Accuracy: 34.27%
-2024-02-17 07:37:41 - INFO - At Epoch 3: Accuracy of the network on the test images: 36.66%
-2024-02-17 07:37:41 - INFO - Best Test Accuracy so far: 36.66%
-2024-02-17 07:37:41 - INFO - Saving the model
-2024-02-17 07:38:12 - INFO - At Epoch 4: Loss: 1.732, Accuracy: 36.94%
-2024-02-17 07:38:14 - INFO - At Epoch 4: Accuracy of the network on the test images: 39.74%
-2024-02-17 07:38:14 - INFO - Best Test Accuracy so far: 39.74%
-2024-02-17 07:38:14 - INFO - Saving the model
-2024-02-17 07:38:45 - INFO - At Epoch 5: Loss: 1.672, Accuracy: 38.94%
-2024-02-17 07:38:47 - INFO - At Epoch 5: Accuracy of the network on the test images: 40.65%
-2024-02-17 07:38:47 - INFO - Best Test Accuracy so far: 40.65%
-2024-02-17 07:38:47 - INFO - Saving the model
-2024-02-17 07:39:18 - INFO - At Epoch 6: Loss: 1.621, Accuracy: 40.39%
-2024-02-17 07:39:20 - INFO - At Epoch 6: Accuracy of the network on the test images: 43.40%
-2024-02-17 07:39:20 - INFO - Best Test Accuracy so far: 43.40%
-2024-02-17 07:39:20 - INFO - Saving the model
-2024-02-17 07:39:51 - INFO - At Epoch 7: Loss: 1.578, Accuracy: 42.30%
-2024-02-17 07:39:53 - INFO - At Epoch 7: Accuracy of the network on the test images: 44.97%
-2024-02-17 07:39:53 - INFO - Best Test Accuracy so far: 44.97%
-2024-02-17 07:39:53 - INFO - Saving the model
-2024-02-17 07:40:24 - INFO - At Epoch 8: Loss: 1.539, Accuracy: 43.49%
-2024-02-17 07:40:26 - INFO - At Epoch 8: Accuracy of the network on the test images: 46.37%
-2024-02-17 07:40:26 - INFO - Best Test Accuracy so far: 46.37%
-2024-02-17 07:40:26 - INFO - Saving the model
-2024-02-17 07:40:57 - INFO - At Epoch 9: Loss: 1.507, Accuracy: 44.81%
-2024-02-17 07:40:59 - INFO - At Epoch 9: Accuracy of the network on the test images: 48.21%
-2024-02-17 07:40:59 - INFO - Best Test Accuracy so far: 48.21%
-2024-02-17 07:40:59 - INFO - Saving the model
-2024-02-17 07:40:59 - INFO - Finished Training
+2024-02-17 09:46:24 - INFO - The configuration is: {'model_params': {'model_name': 'resnet18', 'pretrained': True, 'num_classes': 100}, 'trainig_params': {'batch_size': 32, 'num_epochs': 10, 'learning_rate': 0.0001, 'weight_decay': 0.0001, 'momentum': 0.9}, 'run_dir': 'runs', 'data_dir': '/projectnb/ds598/projects/xthomas/data', 'run_path': 'runs/resnet18_bs_32_lr_0.0001_wd_0.0001_epochs_10', 'log_file': 'runs/resnet18_bs_32_lr_0.0001_wd_0.0001_epochs_10/training.log'}
+2024-02-17 09:46:58 - INFO - At Epoch 0: Loss: 3.103, Accuracy: 18.39%
+2024-02-17 09:47:01 - INFO - At Epoch 0: Accuracy of the network on the test images: 24.28%
+2024-02-17 09:47:01 - INFO - Best Test Accuracy so far: 24.28%
+2024-02-17 09:47:01 - INFO - Saving the model
+2024-02-17 09:47:33 - INFO - At Epoch 1: Loss: 2.130, Accuracy: 27.26%
+2024-02-17 09:47:35 - INFO - At Epoch 1: Accuracy of the network on the test images: 30.10%
+2024-02-17 09:47:35 - INFO - Best Test Accuracy so far: 30.10%
+2024-02-17 09:47:35 - INFO - Saving the model
+2024-02-17 09:48:07 - INFO - At Epoch 2: Loss: 1.931, Accuracy: 31.61%
+2024-02-17 09:48:10 - INFO - At Epoch 2: Accuracy of the network on the test images: 34.60%
+2024-02-17 09:48:10 - INFO - Best Test Accuracy so far: 34.60%
+2024-02-17 09:48:10 - INFO - Saving the model
+2024-02-17 09:48:42 - INFO - At Epoch 3: Loss: 1.805, Accuracy: 35.19%
+2024-02-17 09:48:45 - INFO - At Epoch 3: Accuracy of the network on the test images: 38.00%
+2024-02-17 09:48:45 - INFO - Best Test Accuracy so far: 38.00%
+2024-02-17 09:48:45 - INFO - Saving the model
+2024-02-17 09:49:17 - INFO - At Epoch 4: Loss: 1.710, Accuracy: 37.69%
+2024-02-17 09:49:19 - INFO - At Epoch 4: Accuracy of the network on the test images: 40.58%
+2024-02-17 09:49:19 - INFO - Best Test Accuracy so far: 40.58%
+2024-02-17 09:49:19 - INFO - Saving the model
+2024-02-17 09:49:51 - INFO - At Epoch 5: Loss: 1.641, Accuracy: 39.84%
+2024-02-17 09:49:54 - INFO - At Epoch 5: Accuracy of the network on the test images: 42.92%
+2024-02-17 09:49:54 - INFO - Best Test Accuracy so far: 42.92%
+2024-02-17 09:49:54 - INFO - Saving the model
+2024-02-17 09:50:26 - INFO - At Epoch 6: Loss: 1.589, Accuracy: 42.09%
+2024-02-17 09:50:28 - INFO - At Epoch 6: Accuracy of the network on the test images: 44.36%
+2024-02-17 09:50:28 - INFO - Best Test Accuracy so far: 44.36%
+2024-02-17 09:50:28 - INFO - Saving the model
+2024-02-17 09:51:00 - INFO - At Epoch 7: Loss: 1.541, Accuracy: 43.80%
+2024-02-17 09:51:03 - INFO - At Epoch 7: Accuracy of the network on the test images: 46.01%
+2024-02-17 09:51:03 - INFO - Best Test Accuracy so far: 46.01%
+2024-02-17 09:51:03 - INFO - Saving the model
+2024-02-17 09:51:35 - INFO - At Epoch 8: Loss: 1.497, Accuracy: 45.38%
+2024-02-17 09:51:37 - INFO - At Epoch 8: Accuracy of the network on the test images: 47.56%
+2024-02-17 09:51:37 - INFO - Best Test Accuracy so far: 47.56%
+2024-02-17 09:51:37 - INFO - Saving the model
+2024-02-17 09:52:09 - INFO - At Epoch 9: Loss: 1.464, Accuracy: 46.47%
+2024-02-17 09:52:12 - INFO - At Epoch 9: Accuracy of the network on the test images: 48.56%
+2024-02-17 09:52:12 - INFO - Best Test Accuracy so far: 48.56%
+2024-02-17 09:52:12 - INFO - Saving the model
+2024-02-17 09:52:12 - INFO - Finished Training with best accuracy: 48.56%
