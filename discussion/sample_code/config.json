@@ -1,0 +1,18 @@
+{
+    "model_params": {
+        "model_name": "Resnet18",
+        "pretrained": true,
+        "num_classes": 100
+    },
+
+    "trainig_params": {
+        "batch_size": 128,
+        "num_epochs": 2,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "momentum": 0.9
+    },
+
+    "run_dir": "runs",
+    "data_dir": "/projectnb/ds598/projects/xthomas/data"
+}
