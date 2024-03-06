@@ -1,0 +1,17 @@
+https://blog.paperspace.com/writing-resnet-from-scratch-in-pytorch/    
+https://towardsdatascience.com/animated-rnn-lstm-and-gru-ef124d06cf45    
+http://karpathy.github.io/2015/05/21/rnn-effectiveness/    
+https://www.learnpytorch.io/03_pytorch_computer_vision/    
+https://www.learnpytorch.io/06_pytorch_transfer_learning/    
+https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/    
+https://towardsdatascience.com/batch-normalization-an-intuitive-explanation-42e473fa753f    
+http://shikib.com/captioning.html    
+https://medium.com/@stepanulyanin/captioning-images-with-pytorch-bc592e5fd1a3    
+https://towardsdatascience.com/what-are-transposed-convolutions-2d43ac1a0771    
+https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21    
+https://colah.github.io/posts/2015-08-Understanding-LSTMs/    
+https://kharshit.github.io/blog/2019/01/04/the-gradient-problem-in-rnn    
+https://github.com/rammyram/image_captioning/blob/master/Image_Captioning.ipynb    
+https://rumn.medium.com/part-1-ultimate-guide-to-fine-tuning-in-pytorch-pre-trained-model-and-its-configuration-8990194b71e    
+https://towardsdatascience.com/vggnet-vs-resnet-924e9573ca5c    
+https://ai.plainenglish.io/llm-tutorial-4-the-transformer-model-and-self-attention-a6b111fe9fa4    
